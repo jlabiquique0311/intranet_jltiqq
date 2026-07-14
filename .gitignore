@@ -1,0 +1,31 @@
+# Configuración
+config/db_config.php
+
+# Logs
+logs/*.log
+
+# Sesiones
+sessions/*
+
+# Caché
+cache/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node modules (si aplica)
+node_modules/
+package-lock.json
+
+# Archivos temporales
+tmp/*
+temp/*
+
+# Backups de BD
+backups/*.sql
+backups/*.gz
