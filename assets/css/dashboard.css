@@ -1,0 +1,90 @@
+/* Estilos para el dashboard */
+
+.dashboard-card {
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.dashboard-card .card-header {
+  padding: 1rem 1.5rem;
+}
+
+.dashboard-card .card-header h5 {
+  margin: 0;
+  color: white;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dashboard-card .card-body {
+  padding: 1.5rem;
+}
+
+.birthdays-list .birthday-item {
+  padding: 0.75rem 0;
+}
+
+.avatar-sm {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+.news-list .news-item {
+  padding: 0.75rem 0;
+}
+
+.news-item strong {
+  font-size: 0.95rem;
+  color: #003d7a;
+}
+
+.links-list .link-item a {
+  color: #003d7a;
+  transition: color 0.3s ease;
+}
+
+.links-list .link-item a:hover {
+  color: #0052a3;
+  text-decoration: underline;
+}
+
+.sistemas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 1rem;
+}
+
+.sistema-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: #f0f0f0;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #003d7a;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.sistema-link:hover {
+  background: #e8f0f8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 61, 122, 0.15);
+}
+
+.sistema-link i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .sistemas-grid {
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  }
+}
